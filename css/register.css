@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&display=swap');
+
+:root {
+     --main-color: #FFF25C;
+     --second-color: #000000;
+     --body-color: #FFF8A9;
+     --main-font: "Inknut Antiqua", serif;
+     --heading-font: "Inknut Antiqua", serif;
+ }
+ 
+
+ body {
+    background-image: url(../assets/bg2.jpg);
+    font-family: var(--main-font);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 0;
+    margin: 0;
+
+}
+* {
+     box-sizing: border-box;
+     list-style: none;
+     text-decoration: none;
+ }
+
+
+.container {
+     max-width: 1500px;
+     margin: 0 auto;
+ }
+  
+ .MainColumn {
+    text-align: center; /* Teks rata tengah */   
+    background-color: rgba(217, 217, 217, 0.3);
+    padding: 10px; /* Padding di dalam kontainer */   
+    border: 2px solid #FAFAFA;
+    border-radius: 20px; /* Sudut melengkung pada elemen */
+    width: 32%; /* Mengatur lebar maksimum konten */   
+    margin: 20px auto 0; /* Pusatkan vertikal dan horizontal, dengan margin atas 20px */
+    height: fit-content;
+}
+
+.MainColumn h1{
+    font-size: 30px;/* Mengatur ukuran font */
+    font-family: 'Times New Roman', Times, serif;/* Mengatur Jenis Font */
+    text-align: left;
+    font-weight: normal;
+    padding-left: 20px;
+    text-decoration: 2px underline #42A5F5 ;
+    color: #fff;
+
+}
+
+.start-button {
+    width: 50%;
+    height: 60px;
+    padding: 10px 30px;
+    background-color: #42A5F5;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 24px;
+    font-family: Calibri, sans-serif;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 25%;
+    margin-top: 20px;
+
+}
+
+.start-button:hover {
+    background-color: #42A5F5;
+}
+
+.start-button:active {
+    box-shadow: 0 5px #42A5F5;
+    transform: translateY(4px);
+}
+.Form-control {
+    text-align: left;
+    padding: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: auto;
+    color: #fff;
+}
+.lower p{
+    text-align: center;
+    color: #fff;
+}
+
+.form-group input {
+    width: calc(100% - 10px);
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.form-group input[type="text"],
+.form-group input[type="password"],
+.form-group input[type="email"],
+.form-group input[type="tel"] {
+
+    position: relative; /* tambahkan posisi relatif */
+    background-color: #fff;
+    width: 100%;
+    height: 45px;
+    border: 3.5px solid #818589
+    ; /* border yang sudah ada */
+    border-radius: 8px;
+    background-size: 20px;
+    font-size: 14px;
+}
+
+a{
+    color: #42A5F5;
+}
