@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="assets/logo.png">
+    <link rel="stylesheet" href="css/register.css">
+    
+    <title>Register</title>
+</head>
+<body>
+    <div class="MainColumn">
+        <h1>Daftar</h1>
+        
+        <!-- Gambar logo di bagian utama -->
+        <!-- <img src="assets/Sign in.png" class="LogoKolom"> -->
+        <form action="prosesbikin.php" method="POST" class="Form-control">
+            <div class="form-group">
+                <label for="username">Username</label>
+                    <input type="text" id="username" name="username" placeholder="Silahkan Masukan Username" required>
+                <label for="email_user">E-Mail</label>
+                    <input type="email" id="email_user" name="email_user" placeholder="Silahkan Masukan Alamat E-Mail" required>   
+                <label for="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="Masukan setidaknya 8 Karakter" required>  
+                <label for="password_confirm">konfirmasi password</label>
+                    <input type="password" id="password_confirm" name="password_confirm" placeholder="Masukan kembali password" required>
+                <label for="notelepon">No Telepon</label>
+                    <input type="tel" id="notelepon_user" name="notelepon_user" placeholder="Silahkan Masukan No telepon" required>
+            </div>
+              
+            <div class="lower">
+            <button type="submit" name="aksi" value="daftar" class="start-button">Daftar</button>
+            <p>Sudah punya akun ?<a href="login.html"> Login</a></p>
+            </div>
+        </form>        
+    </div>
+</body>
+</html>
